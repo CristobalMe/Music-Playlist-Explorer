@@ -69,7 +69,7 @@ I would have done all the strech features, and I would have implemented the dina
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+I forgot to show one feature.
 
 ### Open-source libraries used
 
