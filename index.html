@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Music Playlist Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Music Playlist Explorer: All</h1>
+            <nav><a href="featured.html"><h3 id="pageToPage">Featured</h3></a></nav>
+        </div>
+    </header>
+
+    <main> 
+
+        <input type="text" id="myInput" onkeyup="mySearchFunction()" placeholder="Search for names.." title="Type in a name">
+
+
+        <section class="playlist-gallery">
+            <div class="playlist-cards">
+            </div>
+        </section>
+
+        <div class="modal-overlay">
+            <div class="modal-content">
+            </div>
+        </div>
+
+        <div id="reload">
+            <button>Reload</button>
+        </div>
+
+        <!-- Form -->
+        <section id="review-form-section">
+            <h2>Post Your Playlist</h2>
+            <form id="new-playlist">
+                <label for="playlist-title">Title:</label>
+                <input type="text" id="playlist-title" name="playlist-title" required>
+                <label for="author">Your Name:</label>
+                <input type="text" id="author" name="author" required>
+                <label for="image">Link to image:</label>
+                <input type="text" id="image" name="image" required>
+
+                <button type="submit">Post</button>
+            </form>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <!-- Your footer content here -->
+    </footer>
+    <script src="data/data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
